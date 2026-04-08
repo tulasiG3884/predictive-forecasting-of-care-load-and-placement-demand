@@ -1,0 +1,20 @@
+{
+  "careload": {
+    "model_path": "models/best_model_recent.joblib",
+    "scaler_path": "models/scaler_recent.joblib",
+    "features_path": "models/feature_columns_recent.json",
+    "cutoff": "2024-06-01",
+    "target": "hhs_care",
+    "best_mae": 5.48,
+    "naive_mae": 6.06,
+    "improvement": 9.6
+  },
+  "discharge": {
+    "model_path": "models/best_discharge_model_recent.joblib",
+    "scaler_path": "models/scaler_discharge_recent.joblib",
+    "features_path": "models/discharge_feature_columns_recent.json",
+    "cutoff": "2025-03-01",
+    "target": "hhs_discharged",
+    "best_mae": 0.63
+  }
+}

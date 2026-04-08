@@ -1,0 +1,10 @@
+,MAE,RMSE,MAPE
+Naive Persistence,6.06,7.24,0.27
+Moving Average (window=3),9.76,11.77,0.43
+Exponential Smoothing,86.69,97.4,3.74
+"ARIMA(3, 1, 3)",144.35,161.63,6.2
+SARIMA,433.17,501.04,18.53
+Linear Regression (Recent),7.48,8.86,0.31
+Ridge Regression (Recent),17.8,22.8,0.74
+Random Forest (Recent),6.54,8.44,0.28
+XGBoost (Recent),5.48,7.12,0.23

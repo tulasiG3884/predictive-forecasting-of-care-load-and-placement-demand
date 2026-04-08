@@ -1,0 +1,4 @@
+Model,MAE,RMSE,MAPE
+Ridge Regression,0.03,0.04,0.6
+Random Forest,0.95,1.44,28.14
+XGBoost,0.63,1.04,21.75
